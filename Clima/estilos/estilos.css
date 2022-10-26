@@ -1,0 +1,50 @@
+/*quitar margenes*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Body*/
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    font-family: sans-serif;
+    color: white;
+}
+
+/*Manipular la seccion temperatura*/
+.locacion, .temperatura{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/*temperatura*/
+.temperatura{
+    flex-direction: column;
+}
+
+/*grados*/
+.grados-seccion{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*grados span*/
+.grados-seccion span{
+    margin: 10px;
+    font-size: 30px;
+}
+
+/*grados seccion h2*/
+.grados-seccion h2{
+    font-size: 40px;
+}
